@@ -5,7 +5,7 @@
 Docker 能够自动执行重复性任务，例如搭建和配置开发环境，从而解放了开发人员以便他们专注在真正重要的事情上：构建杰出的软件。
 用户可以方便地创建和使用容器，把自己的应用放入容器。容器还可以进行版本管理、复制、分享、修改，就像管理普通的代码一样。
 
-**docker主机(host)** : 安装了Docker程序的机器（docker直接安装在操作系统之上<br>
+**docker主机(host)** : 安装了Docker程序的机器（docker直接安装在操作系统之上  
 **docker客户端（Client）**：链接docker主机进行操作<br>
 **docker仓库（Repository）**：用来保存各种打包好的软件镜像
 **docker镜像（Images）**：软件打包好的镜像，放在docker仓库中  
@@ -134,7 +134,6 @@ Docker 设计时，就充分利用 Union FS的技术，将其设计为 分层存
   * File构建
   * build后生成镜像
   * run容器  
-<br><br>
 
 ***
 
