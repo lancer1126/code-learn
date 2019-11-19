@@ -8,7 +8,7 @@ Docker 能够自动执行重复性任务，例如搭建和配置开发环境，�
 **docker主机(host)** : 安装了Docker程序的机器（docker直接安装在操作系统之上<br>
 **docker客户端（Client）**：链接docker主机进行操作<br>
 **docker仓库（Repository）**：用来保存各种打包好的软件镜像
-**docker镜像（Images）**：软件打包好的镜像，放在docker仓库中
+**docker镜像（Images）**：软件打包好的镜像，放在docker仓库中  
 **docker容器（Container）**：镜像启动后的实例称为一个容器，容器是独立运行的一个或一组应用
 
 ## 安装Docker
