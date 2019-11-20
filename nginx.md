@@ -1,4 +1,4 @@
-# **nginx**
+# **Nginx**
 
 ### 反向代理
 
@@ -7,7 +7,7 @@
 ### 负载均衡
 
 **普通请求**  
-普通的请求数量较少
+普通的请求数量较少，一般的服务器就可以承载。
 
 ![普通请求](https://ftp.bmp.ovh/imgs/2019/11/9966a7030ea33a00.png)
 
@@ -125,25 +125,4 @@ http {
         include /etc/nginx/sites-enabled/*;
 }
 
-
-#mail {
-#       # See sample authentication script at:
-#       # http://wiki.nginx.org/ImapAuthenticateWithApachePhpScript
-#
-#       # auth_http localhost/auth.php;
-#       # pop3_capabilities "TOP" "USER";
-#       # imap_capabilities "IMAP4rev1" "UIDPLUS";
-#
-#       server {
-#               listen     localhost:110;
-#               protocol   pop3;
-#               proxy      on;
-#       }
-#
-#       server {
-#               listen     localhost:143;
-#               protocol   imap;
-#               proxy      on;
-#       }
-#}
 ```
