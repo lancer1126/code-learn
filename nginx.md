@@ -128,4 +128,10 @@ http {
 ```
 
 ### Nginx工作原理
+
 [![MfG6k8.md.png](https://s2.ax1x.com/2019/11/20/MfG6k8.md.png)](https://imgchr.com/i/MfG6k8)
+
+**master-worker工作模式的好处**
+
+1. 可以使用nginx -s reload热部署，利用nginx进行热部署操作
+2. 每个workder都是独立的进程，如果有其中一个worker出现问题，其他worker继续进行争抢，实现请求过程，不会造成服务中断。 
