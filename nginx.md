@@ -126,3 +126,6 @@ http {
 }
 
 ```
+
+### Nginx工作原理
+[![MfG6k8.md.png](https://s2.ax1x.com/2019/11/20/MfG6k8.md.png)](https://imgchr.com/i/MfG6k8)
