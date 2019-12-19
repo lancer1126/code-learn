@@ -60,7 +60,10 @@ IO流是**阻塞**的，当一个线程调用read()或write()时，该线程被�
 
 **IO是面向流(Stream Oriented)，而NIO面向缓冲区(Buffer Oriented)**  
 Buffer是一个对象，包含一些要写入或读出的数据，面向流的IO直接将数据写入/读出到Stream对象中，而NIO直接读取到Buffer中进行操作。  
-在NIO中，将数据读入到缓冲器，使用通道进一步处理数据。
+在NIO中，将数据读入到缓冲器，使用通道进一步处理数据。  
+
+* Buffer本质上就是一块内存区
+* Buffer三个最重要的属性：capacity，position，limit
 
 #### 2.2.3 通道(Channels)
 
